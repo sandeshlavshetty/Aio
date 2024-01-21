@@ -12,11 +12,18 @@ Portal 1 :-
 1. community chat interface code
 2. portal 1 description doc
 3. portal 1 web layout pdf
-
+  few snap shots :-  
+     ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/20083acc-bb7c-48ba-88d8-cd72146069d0)
 Portal 2 :-
-![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/647a09d2-05e4-4773-a9c8-ae05d058be6b)
-1. 
-2. Description translation code >> Multilangual 
+![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/ab3def7c-cf2c-4b7b-b8ee-1436c23aee3d)
+1. Description translation code >> Multilangual work description feature
+2. portal 2 landing page
+3. portal 2 description doc
+4. portal2 web layout
+   few snap shots :- 
+     ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/5927d54a-2e42-40b9-bdd5-fcaab353378c)
+
+ 
 
 Team :- 
 ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/c21b44df-c93e-4439-8caa-ee218850faa4)
