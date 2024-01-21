@@ -14,8 +14,9 @@ Portal 1 :-
 3. portal 1 web layout pdf
    
   few snap shots :-  
-     ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/20083acc-bb7c-48ba-88d8-cd72146069d0)
-     ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/cf942ca8-506f-488d-b944-6426bc5890ff)
+    1. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/20083acc-bb7c-48ba-88d8-cd72146069d0)
+    
+    2. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/cf942ca8-506f-488d-b944-6426bc5890ff)
 
 Portal 2 :-
 ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/ab3def7c-cf2c-4b7b-b8ee-1436c23aee3d)
@@ -25,8 +26,9 @@ Portal 2 :-
 4. portal2 web layout
    
    few snap shots :- 
-     ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/5927d54a-2e42-40b9-bdd5-fcaab353378c)
-     ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/e167e097-cf8e-4c32-af94-7b3eeffd1f0b)
+    1. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/5927d54a-2e42-40b9-bdd5-fcaab353378c)
+       
+    2. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/e167e097-cf8e-4c32-af94-7b3eeffd1f0b)
 
 Portal 3 :- 
 ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/14fadddb-5db9-4ea1-846c-be83b0535475)
@@ -36,8 +38,9 @@ Portal 3 :-
 4. portal3 Description doc
    
    few snapshots :-
-   ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/67de5acb-995f-4129-a2de-8044611d544e)
-   ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/b4e9fdee-8244-449d-b0ce-c3fd43dba0d0)
+   1. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/67de5acb-995f-4129-a2de-8044611d544e)
+   
+   2. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/b4e9fdee-8244-449d-b0ce-c3fd43dba0d0)
 
 Landing page :- 
 ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/196da16b-4511-4668-bdb7-c71b649bf9ee)
@@ -45,8 +48,9 @@ Landing page :-
 2. Login OAuth 2.0 >> code for OAuth
 
    few snapshots :-
-   ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/69d4c123-b723-48ae-9c45-34ae2371fa92)
-   ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/c019fbb4-e5a1-41b6-85f8-c59a39f5a399)
+   1. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/69d4c123-b723-48ae-9c45-34ae2371fa92)
+   
+   2. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/c019fbb4-e5a1-41b6-85f8-c59a39f5a399)
 
 
 
