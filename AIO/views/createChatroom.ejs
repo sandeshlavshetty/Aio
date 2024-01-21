@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/createChatroom.css">
+    <title>Create Chatroom</title>
+</head>
+
+<body>
+    <!-- <h1><%= groupChatroomName %></h1> -->
+    <div class="container">
+        <div class="group-details">
+            <h1><%= groupChatroomName %></h1>
+            <div class="group-type">
+                <div class="e-commerce-grp">
+                    <input type="radio" id="e-commerce" name="options" value="e-commerce">
+                    <label for="e-commerce">E-Commerce Site</label>
+                </div>
+
+                <div class="community-chat-grp">
+                    <input type="radio" id="community-grp" name="options" value="community-grp">
+                    <label for="community-grp">Community Group</label>
+                </div>
+            </div>
+            <h2>Add Group Description</h2>
+            <div class="description-area">
+                <p id="group-description" contenteditable="true">Description goes here...</p>
+            </div>
+            <button id="create-btn">Create</button>
+        </div>
+        <div class="img-area">
+            <img src="images/group.jpg" alt="">
+        </div>
+    </div>
+    <div class="confirm-message">
+        <p>Are you sure you want to create a <span>*Group type*</span> group</p>
+        <div class="task-buttons">
+            <button class="confirm-btn">Confirm</button>
+            <button class="cancel-btn">Cancel</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/createChatroom.js"></script>
+</body>
+
+</html>
