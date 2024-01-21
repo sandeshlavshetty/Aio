@@ -1,0 +1,431 @@
+@font-face {
+    font-family: headings;
+    src: url('../fonts/MPLUS1p-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: texts;
+    src: url('../fonts/MPLUS1p-Thin.ttf');
+}
+
+@font-face {
+    font-family: subheadings;
+    src: url('../fonts/MPLUS1p-Medium.ttf');
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.heading-slogan h1{
+    font-family: 'headings';
+    font-size: 4rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 5px 0 5px 0;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.description {
+    font-family: 'texts';
+    background: linear-gradient(to right, #ff0000, #e09f07);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#AIO-slogan {
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    font-family: 'headings';
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 3px 0;
+}
+
+hr {
+    margin: 0;
+    color: grey;
+    opacity: 50%;
+}
+
+.main {
+    padding: 0 4em;
+}
+
+.intro {
+    width: 500px;
+}
+
+.intro p {
+    font-family: "texts";
+    font-weight: bold;
+}
+
+.video-tutorial {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateX(840px) translateY(260px);
+    width: 500px;
+    height: 276px;
+}
+
+.video-tutorial iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.video-tutorial h2 {
+    font-family: 'texts';
+    display: none;
+}
+
+.account-buttons {
+    margin: 25px 0;
+}
+
+#signup {
+    font-family: 'headings';
+    font-size: larger;
+    padding: 15px 80px;
+    margin-right: 5px;
+    background-color: #f78625;
+    border: 1px solid #f78625;
+    border-radius: 5%;
+    color: white;
+    cursor: pointer;
+}
+
+#login {
+    font-family: 'headings';
+    font-size: larger;
+    padding: 15px 80px;
+    margin-left: 5px;
+    background-color: white;
+    color: #f78625;
+    border: 1px solid #f78625;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.portal-explore {
+    display: flex;
+    justify-content: center;
+}
+
+.portal-explore h3 {
+    font-family: 'subheadings';
+    font-weight: lighter;
+    font-size: 4em;
+    cursor: pointer;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    transition: opacity 0.5s ease-in-out;
+    margin: 8px;
+    background-color: #f78625;
+    border: 2px solid #f78625;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+#portal2 {
+    font-family: 'subheadings';
+    background-color: white;
+    color: #f78625;
+}
+
+.cards-container .card img {
+    width: 80%;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.cards-container .card button {
+    font-family: 'subheadings';
+    border: 1px solid black;
+    border-radius: 5%;
+    padding: 10px;
+    color: #f78625;
+    cursor: pointer;
+    margin-top: auto;
+}
+
+#portal2 button {
+    color: white;
+    border: 1px solid #f78625;
+    background-color: #f78625;
+}
+
+.card h2 {
+    font-family: 'headings';
+}
+
+.card p {
+    font-family: 'texts';
+    font-weight: bold;
+}
+  
+.fade-in {
+    opacity: 1;
+}
+
+.our-story {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    background-color: white;
+    border: 2px double #f78625;
+}
+
+.our-story .story-text {
+    width: 70%;
+    margin-right: 25px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-text h2 {
+    font-family: 'texts';
+    font-size: 40px;
+}
+
+.story-text p {
+    font-family: 'subheadings';
+}
+
+.our-story .story-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.story-img img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details {
+    margin: 20px 35px;
+    width: 100%;
+    font-family: 'headings';
+    font-size: 30px;
+}
+
+.contact-details .social-handles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #f78625;
+    margin-right: 20px;
+}
+
+.contact-details .social-handles .icons img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+@media screen and (max-width: 900px) {
+    .nav-links {
+        display: none;
+    }
+  
+    .hamburger {
+        display: flex;
+        transform: translateX(-20px);
+    }
+
+    .hamburger.active .line:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+      }
+    
+      .hamburger.active .line:nth-child(2) {
+        opacity: 0;
+      }
+    
+      .hamburger.active .line:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+    
+      .navbar.active .nav-links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 90%;
+        position: absolute;
+        top: 80px;
+        background-color: white;
+        border: 2px solid #f78625;
+        transition: all 0.5 ease;
+      }
+    
+      .navbar.active .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1103px) and (max-width: 1432px) {
+    .video-tutorial {
+        transform: translateX(650px) translateY(340px);
+        width: 410px;
+        height: 200px;
+    }
+    .video-tutorial iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1002px) and (max-width: 1102px) {
+    .video-tutorial {
+        transform: translateX(590px) translateY(340px);
+        width: 350px;
+        height: 180px;
+    }
+    .video-tutorial iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1001px) {
+    .our-story {
+        flex-direction: column-reverse;
+    }
+
+    .our-story .story-text {
+        width: 96%;
+    }
+    
+    .video-tutorial {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transform: none;
+        position: static;
+        width: auto;
+        height: 650px;
+        margin: 20px;
+    }
+
+    .video-tutorial h2 {
+        display: block;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 842px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .main {
+        padding: 0 10px;
+    }
+
+    .heading-slogan h1 {
+        font-size: 3rem;
+    }
+
+    .intro {
+        width: 350px;
+    }
+
+    .video-tutorial {
+        height: 500px;
+    }
+
+    #signup, #login {
+        margin-bottom: 10px;
+    }
+
+    .contact-details .social-handles h3 {
+        font-size: 25px;
+    }
+
+    .contact-details .social-handles .icons img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .intro {
+        width: 290px;
+    }
+
+    .heading-slogan h1 {
+        font-size: 2.5rem;
+    }
+
+    #AIO-slogan {
+        font-size: 18px;
+    }
+}

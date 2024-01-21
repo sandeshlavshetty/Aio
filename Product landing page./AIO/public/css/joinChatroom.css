@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+#welcome-message {
+    color: #f78625;
+    font-size: 4em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.join-div {
+    width: 400px;
+    height: 500px;
+    background-color: #f78625;
+    border: 2px solid #f78625;
+    margin-right: 10px;
+}
+
+.create-div {
+    width: 400px;
+    height: 500px;
+    border: 2px solid #f78625;
+    margin-left: 10px;
+}
+
+.join-div img, .create-div img {
+    width: 100%;
+    height: 55%;
+}
+
+.search-rooms h1 {
+    color: #fff;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.search-bar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.search-bar .search-area {
+    border-radius: 20px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    padding: 0 8px;
+}
+
+.search-bar button {
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar button:hover {
+    background-color: #d6eaf3;
+}
+
+.search-bar img {
+    width: 12px;
+    background-color: white;
+}
+
+.suggestions-list-box {
+    position: relative;
+}
+
+.suggestions-list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    transform: translateX(-212px) translateY(16px);
+    width: 153px;
+    padding-left: 2px;
+    z-index: 999;
+    border: 1px solid #000;
+}
+
+.suggestion-item {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #d6eaf3;
+}
+
+.search-room-id h3 {
+    color: #fff;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.create-div img {
+    width: 100%;
+    height: 62%;
+}
+
+.create-room h1 {
+    color: #f78625;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.room-name-bar {
+    margin-left: 20px;
+    display: flex;
+}
+
+#room-name-area {
+    background-color: #eeeaea;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50px;
+    padding: 5px;
+    border: 1px solid #f78625;
+}
+
+.room-name-bar button {
+    border: 1px solid #f78625;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+    background-color: #f78625;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.room-name-bar button:hover {
+    background-color: #be5a02;
+}
+
+#special-requirments {
+    display: none;
+    margin-left: 20px;
+    color: #ff0000;
+}
+
+@media screen and (max-width: 900px) {
+    #welcome-message {
+        font-size: 6vh;
+    }
+
+    main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .join-div, .create-div {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    #welcome-message {
+        font-size: 5vh;
+    }
+
+    main {
+        margin: 0 5px;
+    }
+
+    .join-div, .create-div {
+        width: 100%;
+    }
+}
