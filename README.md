@@ -15,8 +15,7 @@ Portal 1 :-
    
   few snap shots :-  
     1. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/20083acc-bb7c-48ba-88d8-cd72146069d0)
-    
-    2.![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/cf942ca8-506f-488d-b944-6426bc5890ff)
+    2. ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/cf942ca8-506f-488d-b944-6426bc5890ff)
 
 Portal 2 :-
 ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/ab3def7c-cf2c-4b7b-b8ee-1436c23aee3d)
