@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group X Chat</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+  <style>
+     body {
+      background-color: white;
+      margin: 0; /* Remove default margin */
+    }
+
+    .container {
+      width: 100%;
+      margin-top: 50px;
+      position: relative; /* Make the container a positioning context */
+    }
+    .panel {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .panel-heading {
+    
+      color: #fff;
+      padding: 15px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .panel-body {
+      height: 600px; 
+    
+      overflow-y: scroll;
+      border-bottom: 1px solid #ddd;
+
+    }
+    .chat-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .chat li {
+      list-style: none;
+      margin-bottom: 30px;
+      padding-bottom: 100px;
+      border-bottom: 1px dotted #B3A9A9;
+    }
+
+    .chat li.left .chat-body {
+      margin-left: 70px; 
+    }
+
+    .chat li.right .chat-body {
+      margin-right: 70px;
+    }
+
+
+    .chat li .chat-body p {
+      margin: 0;
+      color: #333;
+    }
+
+    .panel-footer {
+      padding: 15px;
+      border-top: 1px solid #ddd;
+    }
+
+    .input-group {
+      width: 100%;
+    }
+
+    #btn-input {
+      width: 80%;
+      border-radius: 20px;
+      background-color: white; 
+      color: #f78625;
+    }
+
+    #btn-chat {
+      width: 100%; 
+      border-radius: 100px; 
+      background-color: #fff;
+      color: #000; 
+      transition: background-color 0.3s; 
+    }
+
+    #btn-chat:hover {
+      background-color: #f78625;
+      color: #fff; 
+    }
+    .logo-img {
+      position: absolute;
+      top: 10px; /* Adjust top position */
+      right: 10px; /* Adjust right position */
+      max-width: 600px; /* Adjust max-width as needed */
+      height: 600px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="testing/AIO Logo.png" alt="Logo" class="logo-img">
+
+    <div class="row">
+      <div class="col-md-5">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <span class="glyphicon glyphicon-comment"></span> Group X Chat
+          </div>
+          <div class="panel-body">
+            <ul class="chat">
+             
+              <li class="left clearfix"><span class="chat-img pull-left">
+                <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+              </span>
+              <div class="chat-body clearfix">
+                <div class="header">
+                  <strong class="primary-font">Jack Sparrow</strong>
+                  <small class="pull-right text-muted">
+                    <span class="glyphicon glyphicon-time"></span>12 mins ago
+                  </small>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                </p>
+              </div>
+              </li>
+              <li class="right clearfix"><span class="chat-img pull-right">
+                <img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+              </span>
+              <div class="chat-body clearfix">
+                <div class="header">
+                  <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>13 mins ago</small>
+                  <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                </p>
+              </div>
+              </li>
+              <li class="left clearfix"><span class="chat-img pull-left">
+                <img src="http://placehold.it/50/55C1E7/fff&text=U" alt="User Avatar" class="img-circle" />
+              </span>
+              <div class="chat-body clearfix">
+                <div class="header">
+                  <strong class="primary-font">Jack Sparrow</strong>
+                  <small class="pull-right text-muted">
+                    <span class="glyphicon glyphicon-time"></span>14 mins ago
+                  </small>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                </p>
+              </div>
+              </li>
+              <li class="right clearfix"><span class="chat-img pull-right">
+                <img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />
+              </span>
+              <div class="chat-body clearfix">
+                <div class="header">
+                  <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>15 mins ago</small>
+                  <strong class="pull-right primary-font">Bhaumik Patel</strong>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                </p>
+              </div>
+              </li>
+            </ul>
+          </div>
+          <div class="panel-footer">
+            <div class="input-group">
+              <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." onkeydown="sendMessage(event)" />
+              <span class="input-group-btn">
+                <button class="btn btn-warning btn-sm" id="btn-chat" onclick="sendMessageByButton()">Send</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+       function sendMessageByButton() {
+      var message = $("#btn-input").val();
+      if (message.trim() !== "") {
+        var chatMessage = '<li class="right clearfix"><span class="chat-img pull-right">' +
+          '<img src="http://placehold.it/50/FA6F57/fff&text=ME" alt="User Avatar" class="img-circle" />' +
+          '</span>' +
+          '<div class="chat-body clearfix">' +
+          '<div class="header">' +
+          '<small class=" text-muted"><span class="glyphicon glyphicon-time"></span>Now</small>' +
+          '<strong class="pull-right primary-font">You</strong>' +
+          '</div>' +
+          '<p>' + message + '</p>' +
+          '</div>' +
+          '</li>';
+        $(".chat").append(chatMessage);
+        $("#btn-input").val(""); 
+      }
+    }
+
+    function sendMessage(event) {
+      if (event.key === "Enter") {
+        sendMessageByButton();
+      }
+    }
+  </script>
+</body>
+
+</html>
