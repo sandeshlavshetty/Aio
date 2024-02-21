@@ -1,5 +1,6 @@
 const roomNameArea = document.querySelector('#room-name-area');
 const specialRequirments = document.querySelector('#special-requirments');
+const searchBtn = document.querySelector('#search-btn');
 
 let foundChatrooms = [];
 
@@ -16,15 +17,9 @@ socket.on('chatroomList', chatrooms => {
 const searchArea = document.getElementById('search-area-name');
 const suggestionsList = document.querySelector('.suggestions-list');
 
-searchArea.addEventListener('input', (e) => {
-    const inputValue = searchArea.value.trim();
-    suggestionsList.textContent = '';
-
-    if (inputValue.length > 0) {
-        const filteredChatrooms = filterChatrooms(inputValue);
-        displaySuggestions(filteredChatrooms);
-    }
-});
+searchBtn.addEventListener('click', ()=> {
+    window.location.href = '/listedRooms';
+})
 
 function filterChatrooms(inputValue) {
     return foundChatrooms.filter(chatroom => chatroom.toLowerCase().includes(inputValue.toLowerCase()));

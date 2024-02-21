@@ -9,6 +9,7 @@ const path = require('path');
 const socketIO = require('socket.io');
 const { Console } = require("console");
 const server = http.createServer(app);
+const sass = require('node-sass');
 const io = socketIO(server);
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -52,32 +53,37 @@ const readFirebase = async (collectionName) => {
 
 let chatroomNames = [], groupChatroomName;
 
-
-
 app.get('/joinChatroom', async (req, res) => {
-    try {
-        const chatroomsSnapshot = await getDocs(collection(db, "chatroom"));
-        chatroomNames = [];
-        chatroomsSnapshot.forEach(doc => {
-            chatroomNames.push(doc.id);
-        });
-
-        res.render('joinChatroom', { chatroomNames });
-    }
-    catch(e) {
-        console.error('Error retrieving chatrooms: ', e);
-        res.status(500).send('Internal Server Error');
-    }
+    res.render('joinChatroom');
 });
 
 app.get('/createChatroom', (req, res) => {
-
     res.render('createChatroom', { groupChatroomName });
 });
 
 app.get('/chatroom/:roomName', (req, res) => {
     const roomName = req.params.roomName;
     res.render('chatroom.ejs', { roomName });
+});
+
+app.get('/listedRooms', (req, res) => {
+    res.render('listedShops.ejs');
+});
+
+app.get('/shops/chotuKiIcecream', (req, res) => {
+    res.render('chotuKiIcecream.ejs');
+});
+
+app.get('/portal2Menu', (req, res) => {
+    res.render('portal2Menu.ejs');
+});
+
+app.get('/portal3Menu', (req, res) => {
+    res.render('portal3Menu.ejs');
+});
+
+app.get('/portal3Home', (req, res) => {
+    res.render('portal3Home.ejs');
 });
 
 io.on('connection', socket => {

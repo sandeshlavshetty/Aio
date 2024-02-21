@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        #explore{
+            position: fixed;
+            left: 80%;
+            box-shadow: 10px 10px 10px 10px grey;
+        }
+         .job-card {
+            /* border: 1px solid #ccc;
+            border-radius: 40px;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 50%; */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px;
+            width: 55%;
+            position: relative;
+           
+        }
+        .company-logo {
+            /* max-width: 100px;
+            
+            margin-bottom: 10px;
+            height: 45px;
+             */
+            max-width: 100px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border-radius: 20%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .job-card:hover{
+          box-shadow:  10px 10px 19px rgba(0, 0, 0, 0.1);
+          transition: 0.5s;
+          
+        }
+        .rating {
+            color: #f5a623;
+        }
+        .cardlink{
+        text-decoration: none;
+        color: black;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="font-family: 'Times New Roman', Times, serif;"><img src="/images/Images SC//AIO Logo.png" height="80px">ALL IN ONE</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <nav class="navbar bg-body-tertiary">
+        <form class="container-fluid justify-content-start">
+          <button class="btn btn-outline-success me-2" type="button">Register Now</button>
+          <button type="button" class="btn btn-primary"
+          style="--bs-btn-padding-y: .55rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;width: 120px;">
+    Log In
+  </button>
+        </form>
+        
+      </nav>
+    
+ <div id="explore">     
+<div class="card text-center mb-3" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="/portal3Menu" class="btn btn-primary">Explore Now</a>
+    </div>
+  </div>
+ </div>
+ <div class="container">
+  
+  <div class="job-card">
+      <img src="/images/Images SC/IBM_logo_in.jpg" alt="Logo" class="company-logo">
+      <h3><a class="cardlink"  href="xyz.com">Full Stack Developer</a></h3>
+      <p > IBM  <span class="rating"> &#9733; 4.1</span></p>
+      <p>2-6 years | &#8377; 12-17 Lacs PA | <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="grey" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg>Delhi/ NCR</p>
+      <p><strong>Position :</strong> Required Technical and Professional Expertise . 2-5 years Java,HTM..</p>
+     
+  </div>
+
+  <div class="job-card">
+      <img src="/images/Images SC/nisg.jpg" alt="logo" class="company-logo">
+      <h3><a class="cardlink"  href="xyz.com">R&D Engineer - Full Stack Developer</a></h3>
+      <p> National Institute for Smart Government (NISG)<span class="rating"> &#9733; 3.7</span></p>
+      <p>1-4 years | &#8377; 11-16 Lacs PA | <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="grey" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg>Delhi/ NCR</p>
+      <p><strong>Position :</strong>Solve complex technical challenges, advance research initiatives, and drive..</p>
+  </div>
+
+  <div class="job-card">
+      <img src="/images/Images SC/wipro.png" alt="Logo" class="company-logo">
+      <h3><a class="cardlink"  href="xyz.com">Front End Developer</a></h3>
+      <p><strong></strong> Wipro<span class="rating"> &#9733; 4.2</p>
+        <p>2-5years | &#8377; 7-16 Lacs PA | <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="grey" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+          <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+        </svg>
+        Hyderabad, Bengaluru</p>
+      <p><strong>Position :</strong> We are looking for Front End DevelopersLanguage : Java scriptFramework : Ru.</p>
+  </div>
+  <div class="job-card">
+    <img src="/images/Images SC/accenture.png" alt="Logo" class="company-logo">
+    <h3><a class="cardlink"  href="xyz.com">DevOps Architect</a></h3>
+    <p> Accenture<span class="rating"> &#9733; 4.0</p>
+      <p>2-5years | &#8377; Not disclosed | <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="grey" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+      </svg>
+      Bengaluru</p>
+    <p><strong>Position :</strong> Minimum 3 year(s) of experience is required. Educational Qualification : 15 ye..</p>
+</div>
+</div>
+</body>
+</html>

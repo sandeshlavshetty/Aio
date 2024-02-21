@@ -43,7 +43,22 @@ main {
 .search-rooms h1 {
     color: #fff;
     margin: 15px;
-    font-size: 30px;
+    font-size: 40px;
+}
+
+.search-rooms button {
+    margin: 20px;
+    font-size: 20px;
+    color: #f78625;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.search-rooms button:hover {
+    background-color: #d6eaf3;
 }
 
 .search-bar {

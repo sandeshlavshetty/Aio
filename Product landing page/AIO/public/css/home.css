@@ -98,10 +98,10 @@ hr {
 .video-tutorial {
     position: absolute;
     left: 0;
-    top: 0;
+    top: 50px;
     transform: translateX(840px) translateY(260px);
     width: 500px;
-    height: 276px;
+    height: 250px;
 }
 
 .video-tutorial iframe {
@@ -208,9 +208,18 @@ hr {
     font-family: 'headings';
 }
 
-.card p {
+.card-features {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 20px 10px 20px;
+}
+
+.card-features h4 {
     font-family: 'texts';
     font-weight: bold;
+    margin-bottom: 0;
+    padding: 0;
 }
   
 .fade-in {
