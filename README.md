@@ -35,8 +35,11 @@ go tou directory >> Portal 3
 Understanding Aio:- 
 
 Portal 1 - Empowering Small Businesses >> Aio Bazaar
+
 Portal 2 - Revolutionizing Day Pay Labourers >> Aio` Shram Sarthi
+
 Portal 3 - Career Companion >> Aio` Job Lens
+
 
 1. Portal 1 - Small Business Challenge:  Aio` Bazaar
    - Limited customer engagement and online visibility.
@@ -55,14 +58,27 @@ Portal 3 - Career Companion >> Aio` Job Lens
 Our project's impact is evident through increased small business visibility, improved day pay laborer access to jobs, and streamlined job searches. By providing a centralized platform, we've seen a surge in customer engagement (cause), translating into higher online sales for small businesses, enhanced job opportunities for day pay laborers, and efficient job matches for seekers (effect). Quantifiable data, including increased user interactions and successful job placements, validates our goals. Analytics tools, user surveys, and job placement statistics help measure and understand the tangible impact of our solution.
 
 
+Poratl 1 : Aio` Bazaar
+ - Problem :- There many vendors who want to catch up with fast growing  Online world
+ - Cause/Effect :- Our platform provides them to get online
+ - User perspective :- They will order online the Quick Commerce products and E-Commerce ,etc from this platform as these shops are regional and near to there house which would definately solve delivery may be it would take 2 hours but i can wait where othe Ecommerce company would take 2-3 days for it.
 
+Portal 2 : Aio` Shram Sarthi
+- Problem :- There are many day pay labour who are out for work on daily bases which they get someday but not some day
+- Cause/Effect :-  here they would get Chance to get work on daily bases by large users and Labour Contractors who woulld be listing jobs on our portal
+As we would be mainting the record of work of a particular labour which would leveerage their profile by just an labour to Self Employed person
+
+Portal 3: Aio` Job Lens
+- problem :- Dont able to grab right job opportunity as different company post opening in their company at different places and we found out many people have difficulties in finding right job which suit them.
+- Cause/effect :- so we use our internaly created API to list job at one centralised location and 
+ we created an Designation Predictor and also the Resume Analytics Ai system  by using these features which could help them to secure professional job.
    
 
 
 
  
 
-Team :- 
+Team :-
 ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/c21b44df-c93e-4439-8caa-ee218850faa4)
 
 
