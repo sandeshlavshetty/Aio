@@ -14,9 +14,14 @@ Go to our Directory >> Product landing page/AIO
 ![image](https://github.com/sandeshlavshetty/Aio/assets/138968398/71de8ace-020c-4a1a-8895-e161da7f78f5)
 
 open with integrated terminal in text editor
+
 S-1] :- type npm i
+
 S-2] :- type node index.js
+
 it would be hosted on local-host
+
+
 
 For Ml models 
 go tou directory >> Portal 3
